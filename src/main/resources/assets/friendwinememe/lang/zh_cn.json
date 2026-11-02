@@ -1,0 +1,56 @@
+{
+  "itemGroup.friendwinememe": "朋友的酒MeMe",
+
+  "item.friendwinememe.transparency_mode": "通透模式",
+  "item.friendwinememe.transparency_mode.seconds": "通透模式（%s秒）",
+  "item.friendwinememe.transparency_mode.infinite": "通透模式（无限时间）",
+  "item.friendwinememe.transparency_mode_off": "停止通透模式",
+
+  "command.friendwinememe.reload": "朋友的酒MeMe 配置已重载",
+  "command.friendwinememe.stopall": "已停止全部特效（%s 个实体）",
+  "command.friendwinememe.set": "配置已更新：%s = %s",
+  "command.friendwinememe.query": "当前 %s = %s",
+  "command.friendwinememe.give": "已给予 %s 秒的通透模式",
+  "command.friendwinememe.inspect.miss": "未指向任何方块",
+
+  "command.friendwinememe.musiclist": "可选音乐：%s",
+  "command.friendwinememe.musicselect": "当前音乐已切换为：%s",
+  "command.friendwinememe.musicselect.unknown": "未知音乐：%s",
+
+  "command.friendwinememe.playerlyrics.on": "已开启歌词显示",
+  "command.friendwinememe.playerlyrics.off": "已关闭歌词显示",
+
+  "command.friendwinememe.giveeffectself": "已给自己 %s 秒的通透模式特效",
+
+  "command.friendwinememe.playershake.on": "已关闭视角晃动",
+  "command.friendwinememe.playershake.off": "已开启视角晃动",
+
+  "command.friendwinememe.help.header": "=== FriendWineMeme 指令列表 ===",
+  "command.friendwinememe.help.playershake": "/fwmplayershake 客户端内开启/关闭视角晃动",
+  "command.friendwinememe.help.playerlyrics": "/fwmplayerlyrics 客户端内开启/关闭歌词显示",
+  "command.friendwinememe.help.reload": "/friendwinememe reload - 重载配置",
+  "command.friendwinememe.help.stopall": "/friendwinememe stopAll - 停止所有特效",
+  "command.friendwinememe.help.give": "/friendwinememe give <秒数> - 给自己通透模式物品",
+  "command.friendwinememe.help.inspect": "/friendwinememe inspect - 检测指向的方块和 BlockEntity",
+  "command.friendwinememe.help.musiclist": "/friendwinememe musicList - 列出所有可选音乐",
+  "command.friendwinememe.help.musicselect": "/friendwinememe musicSelect <歌名> - 切换当前音乐",
+  "command.friendwinememe.help.bounce": "/friendwinememe bounce [值] - 弹跳速度",
+  "command.friendwinememe.help.maxheight": "/friendwinememe maxHeight [值] - 挤压最大高度倍率",
+  "command.friendwinememe.help.minheight": "/friendwinememe minHeight [值] - 挤压最小高度倍率",
+  "command.friendwinememe.help.music": "/friendwinememe music [true|false] - 音乐开关",
+  "command.friendwinememe.help.distance": "/friendwinememe distance [格数] - 音乐距离",
+  "command.friendwinememe.help.rotate": "/friendwinememe rotate [true|false] - 旋转开关",
+  "command.friendwinememe.help.rotatespeed": "/friendwinememe rotateSpeed [度/秒] - 旋转速度",
+  "command.friendwinememe.help.lyrics": "/friendwinememe lyrics [true|false] - 歌词显示",
+  "command.friendwinememe.help.musicloop": "/friendwinememe musicLoop [true|false] - 音乐循环",
+  "command.friendwinememe.help.rangeradius": "/friendwinememe rangeRadius [格数] - 范围模式半径",
+  "command.friendwinememe.help.orbit": "/friendwinememe orbit [true|false] - 公转总开关",
+  "command.friendwinememe.help.orbitspeed": "/friendwinememe orbitSpeed [度/秒] - 公转速度",
+  "command.friendwinememe.help.affectblocks": "/friendwinememe affectBlocks [true|false] - 公转是否影响方块",
+  "command.friendwinememe.help.blockorbit": "/friendwinememe blockOrbit [true|false] - 方块是否公转",
+  "command.friendwinememe.help.giveeffectself": "/friendwinememe self <秒数> - 给自己触发特效",
+  "command.friendwinememe.help.viewshake": "/friendwinememe viewShake [true|false] - 特效时视角晃动",
+  "command.friendwinememe.help.viewshakemax": "/friendwinememe viewShakeMax [度] - 最大晃动角度",
+
+  "sound.friendwinememe.transparency_mode_music": "通透的音乐"
+}

@@ -1,0 +1,40 @@
+package com.sf.friendwinememe.client;
+
+import com.sf.friendwinememe.FriendWineMemeMod;
+import com.sf.friendwinememe.entity.BlockDisguiseEntity;
+import com.sf.friendwinememe.entity.FloatingTransparencyEntity;
+import net.minecraft.server.MinecraftServer;
+import net.minecraftforge.event.server.ServerStoppingEvent;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.fml.common.Mod;
+
+import java.util.ArrayList;
+
+@Mod.EventBusSubscriber(modid = FriendWineMemeMod.MODID)
+public class ServerCleanup {
+
+    @SubscribeEvent
+    public static void onServerStopping(ServerStoppingEvent event) {
+        MinecraftServer server = event.getServer();
+
+        RangeModeManager.stopAll();
+
+        for (var lvl : server.getAllLevels()) {
+            ArrayList<BlockDisguiseEntity> blocks = new ArrayList<>();
+            for (var e : lvl.getEntities().getAll()) {
+                if (e instanceof BlockDisguiseEntity bde) blocks.add(bde);
+            }
+            for (BlockDisguiseEntity bde : blocks) {
+                bde.restoreSilent();
+            }
+
+            ArrayList<FloatingTransparencyEntity> floatings = new ArrayList<>();
+            for (var e : lvl.getEntities().getAll()) {
+                if (e instanceof FloatingTransparencyEntity fte) floatings.add(fte);
+            }
+            for (FloatingTransparencyEntity fte : floatings) {
+                fte.discard();
+            }
+        }
+    }
+}

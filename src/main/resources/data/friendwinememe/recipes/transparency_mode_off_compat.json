@@ -1,0 +1,33 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "flavor_immersed_daily"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "pattern": [
+          "   ",
+          "GOG",
+          "   "
+        ],
+        "key": {
+          "G": {
+            "item": "flavor_immersed_daily:polishedglutinousrice_2"
+          },
+          "O": {
+            "item": "friendwinememe:transparency_mode"
+          }
+        },
+        "result": {
+          "item": "friendwinememe:transparency_mode_off",
+          "count": 3
+        }
+      }
+    }
+  ]
+}

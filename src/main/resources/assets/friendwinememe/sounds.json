@@ -1,0 +1,8 @@
+{
+  "transparency_mode_music": {
+    "subtitle": "Friend's Wine Meme Music",
+    "sounds": [
+      { "name": "friendwinememe:transparency_mode_music", "stream": true }
+    ]
+  }
+}
