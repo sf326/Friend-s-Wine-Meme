@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "friendwinememe:transparency_mode" },
+    { "item": "friendwinememe:transparency_mode" }
+  ],
+  "result": {
+    "item": "friendwinememe:transparency_mode",
+    "count": 1
+  }
+}

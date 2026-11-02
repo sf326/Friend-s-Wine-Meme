@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " S ",
+    "IRI",
+    "LLL"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:sugar"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "R": {
+      "item": "minecraft:redstone_torch"
+    },
+    "L": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "friendwinememe:transparency_mode",
+    "count": 6
+  }
+}

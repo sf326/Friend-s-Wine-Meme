@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    " FB",
+    "   "
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:blaze_powder"
+    },
+    "F": {
+      "item": "friendwinememe:transparency_mode"
+    }
+  },
+  "result": {
+    "item": "friendwinememe:transparency_mode_off",
+    "count": 2
+  }
+}

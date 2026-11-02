@@ -1,0 +1,56 @@
+{
+  "itemGroup.friendwinememe": "FriendWineMeme",
+
+  "item.friendwinememe.transparency_mode": "Transparency Mode",
+  "item.friendwinememe.transparency_mode.seconds": "Transparency Mode (%ss)",
+  "item.friendwinememe.transparency_mode.infinite": "Transparency Mode (Infinite)",
+  "item.friendwinememe.transparency_mode_off": "Stop Transparency Mode",
+
+  "command.friendwinememe.reload": "FriendWineMeme config reloaded",
+  "command.friendwinememe.stopall": "Stopped all effects (%s entities)",
+  "command.friendwinememe.set": "Config updated: %s = %s",
+  "command.friendwinememe.query": "Current %s = %s",
+  "command.friendwinememe.give": "Gave Transparency Mode with %s seconds",
+  "command.friendwinememe.inspect.miss": "Not looking at any block",
+
+  "command.friendwinememe.musiclist": "Available music: %s",
+  "command.friendwinememe.musicselect": "Current music switched to: %s",
+  "command.friendwinememe.musicselect.unknown": "Unknown music: %s",
+  "command.friendwinememe.giveeffectself": "Applied Transparency Mode effect to yourself for %s seconds",
+
+  "command.friendwinememe.playerlyrics.on": "Lyrics display enabled",
+  "command.friendwinememe.playerlyrics.off": "Lyrics display disabled",
+
+  "command.friendwinememe.playershake.on": "View shake disabled",
+  "command.friendwinememe.playershake.off": "View shake enabled",
+
+  "command.friendwinememe.help.header": "=== FriendWineMeme Commands ===",
+  "command.friendwinememe.help.playershake": "/fwmplayershake Toggle view shake on the client",
+  "command.friendwinememe.help.playerlyrics": "/fwmplayerlyrics Toggle lyrics display on the client",
+  "command.friendwinememe.help.reload": "/friendwinememe reload - Reload config",
+  "command.friendwinememe.help.stopall": "/friendwinememe stopAll - Stop all effects",
+  "command.friendwinememe.help.give": "/friendwinememe give <seconds> - Give transparency_mode item",
+  "command.friendwinememe.help.inspect": "/friendwinememe inspect - Inspect block and BlockEntity",
+  "command.friendwinememe.help.musiclist": "/friendwinememe musicList - List available music",
+  "command.friendwinememe.help.musicselect": "/friendwinememe musicSelect <name> - Switch current music",
+  "command.friendwinememe.help.bounce": "/friendwinememe bounce [value] - Bounce speed",
+  "command.friendwinememe.help.maxheight": "/friendwinememe maxHeight [value] - Max squash height",
+  "command.friendwinememe.help.minheight": "/friendwinememe minHeight [value] - Min squash height",
+  "command.friendwinememe.help.music": "/friendwinememe music [true|false] - Music toggle",
+  "command.friendwinememe.help.distance": "/friendwinememe distance [blocks] - Music distance",
+  "command.friendwinememe.help.rotate": "/friendwinememe rotate [true|false] - Rotation toggle",
+  "command.friendwinememe.help.rotatespeed": "/friendwinememe rotateSpeed [deg/s] - Rotation speed",
+  "command.friendwinememe.help.lyrics": "/friendwinememe lyrics [true|false] - Lyrics display",
+  "command.friendwinememe.help.musicloop": "/friendwinememe musicLoop [true|false] - Music loop",
+  "command.friendwinememe.help.rangeradius": "/friendwinememe rangeRadius [blocks] - Range mode radius",
+  "command.friendwinememe.help.orbit": "/friendwinememe orbit [true|false] - Orbit master switch",
+  "command.friendwinememe.help.orbitspeed": "/friendwinememe orbitSpeed [deg/s] - Orbit speed",
+  "command.friendwinememe.help.affectblocks": "/friendwinememe affectBlocks [true|false] - Affect blocks",
+  "command.friendwinememe.help.blockorbit": "/friendwinememe blockOrbit [true|false] - Block orbit",
+  "command.friendwinememe.help.giveeffectself": "/friendwinememe giveeffectself <seconds> - Apply effect to yourself",
+  "command.friendwinememe.help.viewshake": "/friendwinememe viewShake [true|false] - View shake during effect",
+  "command.friendwinememe.help.viewshakemax": "/friendwinememe viewShakeMax [deg] - Max view shake angle",
+
+
+  "sound.friendwinememe.transparency_mode_music": "Transparency Mode Music"
+}
